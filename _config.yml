@@ -1,0 +1,12 @@
+# Site settings
+title: DevTheory Inc.
+email: info@devtheory.com
+description: "Web App & Services Development"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://devtheory.com" # the base hostname & protocol for your site
+
+linkedin: devtheory
+phone: 1-800-123-4567
+
+# Build settings
+markdown: kramdown
