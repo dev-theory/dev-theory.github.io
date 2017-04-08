@@ -38,3 +38,26 @@
 .devtheory section.footer {
     padding: 0px;
 }
+
+.devtheory #technology img {
+    width: auto;
+    height: auto;
+    max-height: 70px;
+    max-width: 150px;
+}
+
+.devtheory #technology .logo-container {
+    vertical-align: middle;
+    line-height: 120px;
+}
+
+.devtheory .service-box {
+    padding: 15px;
+    min-height: 220px;
+}
+
+.devtheory .keyword {
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.85);
+}
