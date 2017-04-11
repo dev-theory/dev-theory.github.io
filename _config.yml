@@ -5,8 +5,8 @@ description: "Web App & Services Development"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://devtheory.com" # the base hostname & protocol for your site
 
-linkedin: devtheory
-phone: 1-800-123-4567
+linkedin: devtheory-inc.
+phone: 1-403-973-3055
 
 # Build settings
 markdown: kramdown
