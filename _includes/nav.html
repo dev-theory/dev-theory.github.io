@@ -8,26 +8,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><span class="accent">Dev</span>Theory</a>
+            <a class="navbar-brand page-scroll" href="{% if page.is_landing %}#page-top{% else %}/{% endif %}"><span class="accent">Dev</span>Theory</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#services">Services</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#technology">Technology</a>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#technology">Technology</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#clients">Clients</a>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#clients">Clients</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#careers">Careers</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{% unless page.is_landing %}/{% endunless %}#contact">Contact</a>
                 </li>
             </ul>
         </div>

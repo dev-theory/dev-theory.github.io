@@ -35,6 +35,10 @@
     font-size: 32px;
 }
 
+.devtheory section.less-padding {
+    padding: 50px 0;
+}
+
 .devtheory section.footer {
     padding: 0px;
 }
@@ -60,4 +64,12 @@
     font-weight: bold;
     font-style: italic;
     color: rgba(255, 255, 255, 0.85);
+}
+
+.devtheory .bg-primary .nav-link {
+    color: #FFFFFF;
+}
+
+.devtheory header.sub-header {
+    min-height: 350px;
 }
